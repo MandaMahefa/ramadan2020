@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Ramadan 2020</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Ireo 30 androm-bavaka ho an ny firenena Silamo</string>
+    <string name="nav_header_subtitle">www.pray30days.org</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">www.pray30days.org</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+
+    <string name="menu_calendar">Calendrier</string>
+    <string name="menu_about">Mahakasika</string>
+    <string name="menu_pays">Firenena</string>
+    <string name="menu_question">Fanontaniana</string>
+    <string name="menu_accueil">Fandraisana</string>
+    <string name="title_activity_calendar">Ny andro rehetra</string>
+    <string name="title_activity_question">Ireo fanontaniana</string>
+    <string name="title_activity_pays">Ireo firenena</string>
+    <string name="title_activity_about">Mahakasika</string>
+
+    <string name="numero08"><b>Andro faha 08:</b> Quranism </string>
+    <string name="numero15"><b>Andro faha 15:</b> Firahalahian’ireo samy silamo  </string>
+    <string name="numero24"><b>Andro faha 24:</b> Silamo ara-kolontsaina </string>
+    <string name="numero22"><b>Andro faha 22:</b> Nampianatra maneran-tany  </string>
+
+    <string name="numero03"><b>Andro faha 03:</b> Ny Antemoro eto Madagasikara    </string>
+    <string name="numero04"><b>Andro faha 04:</b> Ny Nils-Nubiens any Egypta sy Soudan     </string>
+    <string name="numero09"><b>Andro faha 09:</b> Ny fikambanana Ahmadiyya any GHANA  </string>
+    <string name="numero12"><b>Andro faha 12:</b> Ireo silamo Sonita ao Comores  </string>
+    <string name="numero17"><b>Andro faha 17:</b> Antsohihy, eto Madagasikara  </string>
+    <string name="numero29"><b>Andro faha 29:</b> Ireo Somaliana any Somalia </string>
+
+    <string name="numero07"><b>Andro faha 07:</b> Tablighi Jamaat movement </string>
+    <string name="numero10"><b>Andro faha 10:</b> Ny Daudi Bohra  </string>
+    <string name="numero14"><b>Andro faha 14</b> Ireo silamo any Uttar Uradesh, Inde  </string>
+    <string name="numero16"><b>Andro faha 16:</b> Ny hetsika Deoband madrasa  </string>
+    <string name="numero21"><b>Andro faha 21:</b> Kashmiris </string>
+    <string name="numero23"><b>Andro faha 23:</b> Mappila ao Inde</string>
+
+    <string name="numero19"><b>Andro faha 19:</b> Fitombohan’ny fiangonana an-trano</string>
+    <string name="numero18"><b>Andro faha 18:</b> Ny fivoaran’ny silamo ao Iran </string>
+    <string name="numero11"><b>Andro faha 11:</b> Ireo vehivavy any Arabie Saoudite   </string>
+    <string name="numero30"><b>Andro faha 30:</b> Ireo mpino kristiana izay silamo teo aloha </string>
+    <string name="numero05"><b>Andro faha 05:</b> Ny Wahhabism </string>
+
+    <string name="numero06"><b>Andro faha 06:</b> Dagestan</string>
+    <string name="numero25"><b>Andro faha 25:</b> Kyrgyzstan</string>
+
+    <string name="numero20"><b>Andro faha 20</b> Silamo any Taiwan</string>
+    <string name="numero27"><b>Andro faha 27</b> Ireo mbojos any antsinanan\'i Sumbawa</string>
+
+    <string name="numero13"><b>Andro faha 13</b> Ny Fanjakana Silamo</string>
+    <string name="numero02"><b>Andro faha 02</b> Ny soufisme any Turquie</string>
+    <string name="numero28"><b>Andro faha 28</b> London</string>
+    <string name="title_activity_sommaire">Ireo toerana voalahatra taona 2020</string>
+    <string name="title_activity_acceuil">AcceuilActivity</string>
+
+
+</resources>

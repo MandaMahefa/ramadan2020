@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".PaysActivity"
+    tools:showIn="@layout/activity_pays">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/titre_book"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center"
+                        android:letterSpacing="-0.01"
+                        android:text="Ireto avy ireo toerana sy antom-bavaka voalahatra amin'ity taona ity"
+                        android:textColor="#53a93d"
+                        android:textSize="25sp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:fontFamily="sans-serif"
+                        android:letterSpacing="-0.01"
+                        android:layout_gravity="center_vertical"
+                        android:lineSpacingExtra="9.1sp"
+                        android:text=" HETSIKA MANERANTANY "
+                        android:textColor="#53a93d"
+                        android:textSize="20sp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:fontFamily="sans-serif"
+                        android:letterSpacing="-0.01"
+                        android:layout_gravity="center_vertical"
+                        android:lineSpacingExtra="9.1sp"
+                        android:text="@string/numero08"
+                        android:textColor="#716f87"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:visibility="visible"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:fontFamily="sans-serif"
+                        android:letterSpacing="-0.01"
+                        android:layout_gravity="center_vertical"
+                        android:lineSpacingExtra="9.1sp"
+                        android:text="@string/numero15"
+                        android:textColor="#716f87"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:visibility="visible"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:fontFamily="sans-serif"
+                        android:letterSpacing="-0.01"
+                        android:layout_gravity="center_vertical"
+                        android:lineSpacingExtra="9.1sp"
+                        android:text="@string/numero24"
+                        android:textColor="#716f87"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:visibility="visible"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:fontFamily="sans-serif"
+                        android:letterSpacing="-0.01"
+                        android:layout_gravity="center_vertical"
+                        android:lineSpacingExtra="9.1sp"
+                        android:text="@string/numero22"
+                        android:textColor="#716f87"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:visibility="visible"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:fontFamily="sans-serif"
+                        android:letterSpacing="-0.01"
+                        android:layout_gravity="center_vertical"
+                        android:lineSpacingExtra="9.1sp"
+                        android:text=" AFRIKA "
+                        android:textColor="#53a93d"
+                        android:textSize="20sp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:fontFamily="sans-serif"
+                        android:letterSpacing="-0.01"
+                        android:layout_gravity="center_vertical"
+                        android:lineSpacingExtra="9.1sp"
+                        android:text="@string/numero03"
+                        android:textColor="#716f87"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:visibility="visible"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:fontFamily="sans-serif"
+                        android:letterSpacing="-0.01"
+                        android:layout_gravity="center_vertical"
+                        android:lineSpacingExtra="9.1sp"
+                        android:text="@string/numero04"
+                        android:textColor="#716f87"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:visibility="visible"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:fontFamily="sans-serif"
+                        android:letterSpacing="-0.01"
+                        android:layout_gravity="center_vertical"
+                        android:lineSpacingExtra="9.1sp"
+                        android:text="@string/numero09"
+                        android:textColor="#716f87"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:visibility="visible"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:fontFamily="sans-serif"
+                        android:letterSpacing="-0.01"
+                        android:layout_gravity="center_vertical"
+                        android:lineSpacingExtra="9.1sp"
+                        android:text="@string/numero12"
+                        android:textColor="#716f87"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:visibility="visible"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:fontFamily="sans-serif"
+                        android:letterSpacing="-0.01"
+                        android:layout_gravity="center_vertical"
+                        android:lineSpacingExtra="9.1sp"
+                        android:text="@string/numero17"
+                        android:textColor="#716f87"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:visibility="visible"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:fontFamily="sans-serif"
+                        android:letterSpacing="-0.01"
+                        android:layout_gravity="center_vertical"
+                        android:lineSpacingExtra="9.1sp"
+                        android:text="@string/numero29"
+                        android:textColor="#716f87"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:visibility="visible"/>
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:fontFamily="sans-serif"
+                        android:letterSpacing="-0.01"
+                        android:layout_gravity="center_vertical"
+                        android:lineSpacingExtra="9.1sp"
+                        android:text=" INDE "
+                        android:textColor="#53a93d"
+                        android:textSize="20sp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:fontFamily="sans-serif"
+                        android:letterSpacing="-0.01"
+                        android:layout_gravity="center_vertical"
+                        android:lineSpacingExtra="9.1sp"
+                        android:text="@string/numero07"
+                        android:textColor="#716f87"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:visibility="visible"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:fontFamily="sans-serif"
+                        android:letterSpacing="-0.01"
+                        android:layout_gravity="center_vertical"
+                        android:lineSpacingExtra="9.1sp"
+                        android:text="@string/numero10"
+                        android:textColor="#716f87"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:visibility="visible"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:fontFamily="sans-serif"
+                        android:letterSpacing="-0.01"
+                        android:layout_gravity="center_vertical"
+                        android:lineSpacingExtra="9.1sp"
+                        android:text="@string/numero14"
+                        android:textColor="#716f87"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:visibility="visible"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:fontFamily="sans-serif"
+                        android:letterSpacing="-0.01"
+                        android:layout_gravity="center_vertical"
+                        android:lineSpacingExtra="9.1sp"
+                        android:text="@string/numero16"
+                        android:textColor="#716f87"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:visibility="visible"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:fontFamily="sans-serif"
+                        android:letterSpacing="-0.01"
+                        android:layout_gravity="center_vertical"
+                        android:lineSpacingExtra="9.1sp"
+                        android:text="@string/numero21"
+                        android:textColor="#716f87"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:visibility="visible"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:fontFamily="sans-serif"
+                        android:letterSpacing="-0.01"
+                        android:layout_gravity="center_vertical"
+                        android:lineSpacingExtra="9.1sp"
+                        android:text="@string/numero23"
+                        android:textColor="#716f87"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:visibility="visible"/>
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:fontFamily="sans-serif"
+                        android:letterSpacing="-0.01"
+                        android:layout_gravity="center_vertical"
+                        android:lineSpacingExtra="9.1sp"
+                        android:text=" AZIA AFOVOANY ATSINANANA "
+                        android:textColor="#53a93d"
+                        android:textSize="20sp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:fontFamily="sans-serif"
+                        android:letterSpacing="-0.01"
+                        android:layout_gravity="center_vertical"
+                        android:lineSpacingExtra="9.1sp"
+                        android:text="@string/numero19"
+                        android:textColor="#716f87"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:visibility="visible"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:fontFamily="sans-serif"
+                        android:letterSpacing="-0.01"
+                        android:layout_gravity="center_vertical"
+                        android:lineSpacingExtra="9.1sp"
+                        android:text="@string/numero18"
+                        android:textColor="#716f87"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:visibility="visible"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:fontFamily="sans-serif"
+                        android:letterSpacing="-0.01"
+                        android:layout_gravity="center_vertical"
+                        android:lineSpacingExtra="9.1sp"
+                        android:text="@string/numero11"
+                        android:textColor="#716f87"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:visibility="visible"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:fontFamily="sans-serif"
+                        android:letterSpacing="-0.01"
+                        android:layout_gravity="center_vertical"
+                        android:lineSpacingExtra="9.1sp"
+                        android:text="@string/numero30"
+                        android:textColor="#716f87"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:visibility="visible"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:fontFamily="sans-serif"
+                        android:letterSpacing="-0.01"
+                        android:layout_gravity="center_vertical"
+                        android:lineSpacingExtra="9.1sp"
+                        android:text="@string/numero05"
+                        android:textColor="#716f87"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:visibility="visible"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:fontFamily="sans-serif"
+                        android:letterSpacing="-0.01"
+                        android:layout_gravity="center_vertical"
+                        android:lineSpacingExtra="9.1sp"
+                        android:text=" AZIA AFOVOANY "
+                        android:textColor="#53a93d"
+                        android:textSize="20sp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:fontFamily="sans-serif"
+                        android:letterSpacing="-0.01"
+                        android:layout_gravity="center_vertical"
+                        android:lineSpacingExtra="9.1sp"
+                        android:text="@string/numero06"
+                        android:textColor="#716f87"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:visibility="visible"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:fontFamily="sans-serif"
+                        android:letterSpacing="-0.01"
+                        android:layout_gravity="center_vertical"
+                        android:lineSpacingExtra="9.1sp"
+                        android:text="@string/numero25"
+                        android:textColor="#716f87"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:visibility="visible"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:fontFamily="sans-serif"
+                        android:letterSpacing="-0.01"
+                        android:layout_gravity="center_vertical"
+                        android:lineSpacingExtra="9.1sp"
+                        android:text=" AZIA ATSINANANA"
+                        android:textColor="#53a93d"
+                        android:textSize="20sp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:fontFamily="sans-serif"
+                        android:letterSpacing="-0.01"
+                        android:layout_gravity="center_vertical"
+                        android:lineSpacingExtra="9.1sp"
+                        android:text="@string/numero20"
+                        android:textColor="#716f87"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:visibility="visible"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:fontFamily="sans-serif"
+                        android:letterSpacing="-0.01"
+                        android:layout_gravity="center_vertical"
+                        android:lineSpacingExtra="9.1sp"
+                        android:text="@string/numero27"
+                        android:textColor="#716f87"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:visibility="visible"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:fontFamily="sans-serif"
+                        android:letterSpacing="-0.01"
+                        android:layout_gravity="center_vertical"
+                        android:lineSpacingExtra="9.1sp"
+                        android:text=" AMERIKA AVARATRA"
+                        android:textColor="#53a93d"
+                        android:textSize="20sp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:fontFamily="sans-serif"
+                        android:letterSpacing="-0.01"
+                        android:layout_gravity="center_vertical"
+                        android:lineSpacingExtra="9.1sp"
+                        android:text="@string/numero13"
+                        android:textColor="#716f87"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:visibility="visible"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:fontFamily="sans-serif"
+                        android:letterSpacing="-0.01"
+                        android:layout_gravity="center_vertical"
+                        android:lineSpacingExtra="9.1sp"
+                        android:text=" EOROPA"
+                        android:textColor="#53a93d"
+                        android:textSize="20sp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:fontFamily="sans-serif"
+                        android:letterSpacing="-0.01"
+                        android:layout_gravity="center_vertical"
+                        android:lineSpacingExtra="9.1sp"
+                        android:text="@string/numero02"
+                        android:textColor="#716f87"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:visibility="visible"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:fontFamily="sans-serif"
+                        android:letterSpacing="-0.01"
+                        android:layout_gravity="center_vertical"
+                        android:lineSpacingExtra="9.1sp"
+                        android:text="@string/numero28"
+                        android:textColor="#716f87"
+                        android:textSize="20sp"
+                        android:textStyle="normal"
+                        android:visibility="visible"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

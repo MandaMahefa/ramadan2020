@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".AboutActivity"
+    tools:showIn="@layout/activity_about">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:background="#000000"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/titre_book"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center"
+                    android:letterSpacing="-0.01"
+                    android:text="Misaotra anao nivavaka"
+                    android:textColor="#FA0808"
+                    android:textSize="25sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/description_book"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#FFFFFF"
+                    android:layout_marginTop="18dp"
+                    android:fontFamily="sans-serif"
+                    android:letterSpacing="-0.01"
+                    android:layout_gravity="center_vertical|end"
+                    android:lineSpacingExtra="9.1sp"
+                    android:text="       Mankasitraka antsika rehetra izay nandray anjara tamin'ny fanatontosana ny 30 androm-bavaka tamin'ity taona ity izahay- ireo mpandray anjara anay, mpaka sary, mpandika teny, design sy ny ekipa mpizara maneran-tany, ary ireo iraka sy fiangonana, fikambanana izay manohana azy ireo sy mamporisika azy.
+Misaotra manokana ihany koa ho an'ireo mpandray anjara rehetra tamin'ny 30 andro nivavahana ho an'ny firenena silamo tamin'ity taona 2020 ity! Manantena ny hahita anareo indray izahay amin'ny heritaona!
+\n "
+                    android:textColor="#716f87"
+                    android:textSize="20sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:fontFamily="sans-serif"
+                    android:letterSpacing="-0.01"
+                    android:layout_gravity="center_vertical|end"
+                    android:lineSpacingExtra="9.1sp"
+                    android:text="Izahay dia tena mankasitraka indrindra ny domberina alefanareo \n"
+                    android:textColor="#716f87"
+                    android:textSize="20sp"
+                    android:textStyle="normal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:fontFamily="sans-serif"
+                    android:letterSpacing="-0.01"
+                    android:layout_gravity="center_vertical|end"
+                    android:lineSpacingExtra="9.1sp"
+                    android:text="Afaka mandefa hafatra aminay amin'ny alalan'ny \n
+\t •www.pray30days.org \n
+na mandefa mailaka \n
+\t • \t info@pray30days.org \n
+\t Na manaraka ny tambajotra sosialy \n
+\t • \t facebook.com/pray30days \n
+\t • \t twitter.com/pray30days \n
+\t • \t instagram.com/pray30days \n"
+                    android:textColor="#716f87"
+                    android:textSize="20sp"
+                    android:textStyle="normal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:fontFamily="sans-serif"
+                    android:letterSpacing="-0.01"
+                    android:layout_gravity="center_vertical|start"
+                    android:lineSpacingExtra="9.1sp"
+                    android:text="Mankasitraka ny amin'ny vavaka! \n Ny mpamokatra ny 30androm-bavaka \n"
+                    android:textColor="#716f87"
+                    android:textSize="20sp"
+                    android:textStyle="normal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:fontFamily="sans-serif"
+                    android:letterSpacing="-0.01"
+                    android:layout_gravity="center_vertical|end"
+                    android:lineSpacingExtra="9.1sp"
+                    android:text="Copyright 2020 30 androm-bavaka maneran-tany. Ny sary rehetra nampiasaina dia efa nahazoana alalana avokoa. \n"
+                    android:textColor="#716f87"
+                    android:textSize="20sp"
+                    android:textStyle="normal"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
